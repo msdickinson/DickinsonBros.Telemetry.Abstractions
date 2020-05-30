@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DickinsonBros.Telemetry.Abstractions", "DickinsonBros.Telemetry.Abstractions\DickinsonBros.Telemetry.Abstractions.csproj", "{7295F979-D995-468E-AC74-E9A09C95F049}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 Abstractions", "1 Abstractions", "{C57B8BE9-FD6B-40C8-A62F-0CE50C57BC65}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "9 Scripts", "9 Scripts", "{D9A8FC77-3304-46A9-8890-8E1E075D249E}"
+	ProjectSection(SolutionItems) = preProject
+		Scripts\CreateNugetPackagePreRelease.ps1 = Scripts\CreateNugetPackagePreRelease.ps1
+		Scripts\Publish.yml = Scripts\Publish.yml
+		Scripts\Test.yml = Scripts\Test.yml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DickinsonBros.Telemetry.Abstractions.Tests", "DickinsonBros.Telemetry.Abstractions.Tests\DickinsonBros.Telemetry.Abstractions.Tests.csproj", "{8513D7A3-BBB5-4F5E-8F6D-39DD390A5F85}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7295F979-D995-468E-AC74-E9A09C95F049}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7295F979-D995-468E-AC74-E9A09C95F049}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7295F979-D995-468E-AC74-E9A09C95F049}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7295F979-D995-468E-AC74-E9A09C95F049}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8513D7A3-BBB5-4F5E-8F6D-39DD390A5F85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8513D7A3-BBB5-4F5E-8F6D-39DD390A5F85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8513D7A3-BBB5-4F5E-8F6D-39DD390A5F85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8513D7A3-BBB5-4F5E-8F6D-39DD390A5F85}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7295F979-D995-468E-AC74-E9A09C95F049} = {C57B8BE9-FD6B-40C8-A62F-0CE50C57BC65}
+		{8513D7A3-BBB5-4F5E-8F6D-39DD390A5F85} = {C57B8BE9-FD6B-40C8-A62F-0CE50C57BC65}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0786D5EE-42CA-4442-9917-1F0F015ADAD4}
+	EndGlobalSection
+EndGlobal
