@@ -6,4 +6,4 @@
 
 Abstractions For <a href="https://github.com/msdickinson/DickinsonBros.Telemetry">DickinsonBros.Telemetry </a>
 
-<a href="https://dev.azure.com/marksamdickinson/DickinsonBros/_build?definitionScope=%5CDickinsonBros.Telemetry">Builds</a>
+<a href="https://dev.azure.com/marksamdickinson/DickinsonBros/_build?definitionScope=%5CDickinsonBros.Telemetry.Abstractions">Builds</a>
