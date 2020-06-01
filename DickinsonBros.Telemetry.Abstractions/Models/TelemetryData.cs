@@ -1,4 +1,5 @@
-﻿using System.Diagnostics.CodeAnalysis;
+﻿using System;
+using System.Diagnostics.CodeAnalysis;
 
 namespace DickinsonBros.Telemetry.Abstractions.Models
 {
@@ -9,5 +10,6 @@ namespace DickinsonBros.Telemetry.Abstractions.Models
         public TelemetryType TelemetryType { get; set; }
         public int ElapsedMilliseconds { get; set; }
         public TelemetryState TelemetryState { get; set; }
+        public DateTime DateTime { get; set; }
     }
 }
