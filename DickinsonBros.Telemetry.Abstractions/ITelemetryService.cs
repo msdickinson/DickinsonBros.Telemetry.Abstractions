@@ -6,7 +6,7 @@ namespace DickinsonBros.Telemetry.Abstractions
     public interface ITelemetryService
     {
         void Insert(TelemetryData telemetryData);
-        Task Flush();
+        Task FlushAsync();
 
     }
 }
