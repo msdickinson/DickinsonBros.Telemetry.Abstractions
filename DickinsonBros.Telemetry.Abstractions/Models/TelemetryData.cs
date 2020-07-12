@@ -11,5 +11,6 @@ namespace DickinsonBros.Telemetry.Abstractions.Models
         public int ElapsedMilliseconds { get; set; }
         public TelemetryState TelemetryState { get; set; }
         public DateTime DateTime { get; set; }
+        public string Source { get; set; }
     }
 }
