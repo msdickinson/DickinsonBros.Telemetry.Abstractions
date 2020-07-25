@@ -5,6 +5,7 @@
         API = 0,
         Rest = 1,
         SQL = 2,
-        Email = 3
+        Email = 3,
+        NoSQL = 4
     }
 }
