@@ -3,18 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29519.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DickinsonBros.Telemetry.Abstractions", "DickinsonBros.Telemetry.Abstractions\DickinsonBros.Telemetry.Abstractions.csproj", "{7295F979-D995-468E-AC74-E9A09C95F049}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 Source", "1 Source", "{489DA5FB-5856-4D3D-81CC-EB0846E79E58}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 Abstractions", "1 Abstractions", "{C57B8BE9-FD6B-40C8-A62F-0CE50C57BC65}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "9 Scripts", "9 Scripts", "{D9A8FC77-3304-46A9-8890-8E1E075D249E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 Tests", "2 Tests", "{7E7F8311-FA73-4EC1-8675-07F969A07ED7}"
 	ProjectSection(SolutionItems) = preProject
-		Scripts\CreateNugetPackagePreRelease.ps1 = Scripts\CreateNugetPackagePreRelease.ps1
+		Tests\DickinsonBros.Telemetry.Abstractions.runsettings = Tests\DickinsonBros.Telemetry.Abstractions.runsettings
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 Scripts", "3 Scripts", "{016E47FD-3D32-4E46-A327-9050E2ECFC41}"
+	ProjectSection(SolutionItems) = preProject
+		Scripts\Prerelease.DickinsonBros.Telemetry.Abstractions.ps1 = Scripts\Prerelease.DickinsonBros.Telemetry.Abstractions.ps1
 		Scripts\Publish.yml = Scripts\Publish.yml
 		Scripts\Test.yml = Scripts\Test.yml
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DickinsonBros.Telemetry.Abstractions.Tests", "DickinsonBros.Telemetry.Abstractions.Tests\DickinsonBros.Telemetry.Abstractions.Tests.csproj", "{8513D7A3-BBB5-4F5E-8F6D-39DD390A5F85}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DickinsonBros.Telemetry.Abstractions.Tests", "Tests\DickinsonBros.Telemetry.Abstractions.Tests\DickinsonBros.Telemetry.Abstractions.Tests.csproj", "{409A228B-0487-47E7-BB1A-BB77C7EC0797}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DickinsonBros.Telemetry.Abstractions", "Source\DickinsonBros.Telemetry.Abstractions\DickinsonBros.Telemetry.Abstractions.csproj", "{FC770263-11D8-4D69-A05D-028EBE8244D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,21 +27,21 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7295F979-D995-468E-AC74-E9A09C95F049}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7295F979-D995-468E-AC74-E9A09C95F049}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7295F979-D995-468E-AC74-E9A09C95F049}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7295F979-D995-468E-AC74-E9A09C95F049}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8513D7A3-BBB5-4F5E-8F6D-39DD390A5F85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8513D7A3-BBB5-4F5E-8F6D-39DD390A5F85}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8513D7A3-BBB5-4F5E-8F6D-39DD390A5F85}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8513D7A3-BBB5-4F5E-8F6D-39DD390A5F85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{409A228B-0487-47E7-BB1A-BB77C7EC0797}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{409A228B-0487-47E7-BB1A-BB77C7EC0797}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{409A228B-0487-47E7-BB1A-BB77C7EC0797}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{409A228B-0487-47E7-BB1A-BB77C7EC0797}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC770263-11D8-4D69-A05D-028EBE8244D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC770263-11D8-4D69-A05D-028EBE8244D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC770263-11D8-4D69-A05D-028EBE8244D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC770263-11D8-4D69-A05D-028EBE8244D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{7295F979-D995-468E-AC74-E9A09C95F049} = {C57B8BE9-FD6B-40C8-A62F-0CE50C57BC65}
-		{8513D7A3-BBB5-4F5E-8F6D-39DD390A5F85} = {C57B8BE9-FD6B-40C8-A62F-0CE50C57BC65}
+		{409A228B-0487-47E7-BB1A-BB77C7EC0797} = {7E7F8311-FA73-4EC1-8675-07F969A07ED7}
+		{FC770263-11D8-4D69-A05D-028EBE8244D4} = {489DA5FB-5856-4D3D-81CC-EB0846E79E58}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0786D5EE-42CA-4442-9917-1F0F015ADAD4}
