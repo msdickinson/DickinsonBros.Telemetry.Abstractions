@@ -2,8 +2,8 @@
 {
     public enum TelemetryState
     {
-        Successful = 0,
-        BadRequest = 1,
-        Failed = 2
+        Successful  = 0,
+        BadRequest  = 1,
+        Failed      = 2
     }
 }
