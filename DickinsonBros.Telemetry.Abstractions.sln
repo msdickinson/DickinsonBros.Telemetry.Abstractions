@@ -7,12 +7,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 Source", "1 Source", "{48
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 Tests", "2 Tests", "{7E7F8311-FA73-4EC1-8675-07F969A07ED7}"
 	ProjectSection(SolutionItems) = preProject
-		Tests\DickinsonBros.Telemetry.Abstractions.runsettings = Tests\DickinsonBros.Telemetry.Abstractions.runsettings
+		Tests\CodeCoverage.runsettings = Tests\CodeCoverage.runsettings
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 Scripts", "3 Scripts", "{016E47FD-3D32-4E46-A327-9050E2ECFC41}"
 	ProjectSection(SolutionItems) = preProject
-		Scripts\Prerelease.DickinsonBros.Telemetry.Abstractions.ps1 = Scripts\Prerelease.DickinsonBros.Telemetry.Abstractions.ps1
+		Scripts\PackagePrerelease.ps1 = Scripts\PackagePrerelease.ps1
 		Scripts\Publish.yml = Scripts\Publish.yml
 		Scripts\Test.yml = Scripts\Test.yml
 	EndProjectSection
